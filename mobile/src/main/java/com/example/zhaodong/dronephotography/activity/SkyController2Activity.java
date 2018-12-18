@@ -129,7 +129,7 @@ public class SkyController2Activity extends AppCompatActivity {
         });
 
         mDownloadBt = (Button)findViewById(R.id.downloadBt);
-        mDownloadBt.setEnabled(false);
+//        mDownloadBt.setEnabled(false);
         mDownloadBt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 mSkyController2Drone.getLastFlightMedias();
