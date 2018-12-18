@@ -344,3 +344,8 @@ public class DownloadFileActivity extends AppCompatActivity implements ARDataTra
         }).start();
     }
 }
+
+
+
+
+
